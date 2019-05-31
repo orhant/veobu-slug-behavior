@@ -1,26 +1,21 @@
 {
-	"name": "skeeks/yii2-slug-behavior",
+	"name": "veo/slug-behavior",
 	"description": "Yii2 slug behavior",
 	"keywords": ["yii", "slug", "behavior", "yii2"],
-    "homepage": "https://skeeks.com/",
+    
 	"type": "yii2-extension",
 	"license": "GPL-3.0+",
 	"support": {
-        "issues": "https://github.com/skeeks-semenov/yii2-slug-behavior/issues",
-        "source": "https://github.com/skeeks-semenov/yii2-slug-behavior",
-		"wiki": "https://cms.skeeks.com/",
-		"authors": "https://skeeks.com"
+        "source": "https://github.com/orhant/veobu-slug-behavior",
+        "issues": "https://github.com/orhant/veobu-slug-behaviorhttps://github.com/orhant/veo-social-share/issues"
     },
 	"authors": [
         {
-            "name": "SkeekS",
-            "email": "support@skeeks.com",
-            "homepage": "https://skeeks.com"
-        },
-        {
-            "name": "Semenov Alexander",
-            "email": "semenov@skeeks.com"
+            "name": "Orhan Tornaci",
+            "email": "Orhan.Tornaci@gmail.com",
+            "role": "Developer"
         }
+      
     ],
 	"require": {
 		"yiisoft/yii2": "^2",
@@ -28,7 +23,12 @@
 	},
     "autoload": {
         "psr-4": {
-            "skeeks\\yii2\\slug\\": "src/"
+           
+            "veo\\yii2\\slug\\": "src/"
         }
     }
 }
+
+
+ 
+  

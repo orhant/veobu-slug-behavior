@@ -5,7 +5,7 @@
  * @copyright (c) 2010 SkeekS
  * @date 04.11.2017
  */
-namespace skeeks\yii2\slug;
+namespace veo\yii2\slug;
 use Cocur\Slugify\RuleProvider\RuleProviderInterface;
 use Cocur\Slugify\Slugify;
 
