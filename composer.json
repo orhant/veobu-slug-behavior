@@ -1,9 +1,9 @@
 {
 	"name": "veo/slug-behavior",
-	"description": "Yii2 slug behavior",
-	"keywords": ["yii", "slug", "behavior", "yii2"],
+	"description": "veo slug behavior",
+	"keywords": ["veo"],
     
-	"type": "yii2-extension",
+	"type": "veo-extension",
 	"license": "GPL-3.0+",
 	"support": {
         "source": "https://github.com/orhant/veobu-slug-behavior",
