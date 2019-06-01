@@ -97,8 +97,8 @@ class SlugBehavior extends AttributeBehavior
      */
     public function getValue($event)
     {
-        if (!$this->value)
-        {
+        // if (!$this->value)
+        // {
             $slugify = new Slugify((array) $this->slugifyOptions, $this->slugifyRuleProvider);
 
             if ($this->owner->{$this->slugAttribute})
@@ -147,9 +147,9 @@ class SlugBehavior extends AttributeBehavior
             }
 
             return $slug;
-        } else
-        {
-            return call_user_func($this->value, $event);
-        }
+        // } else
+        // {
+        //     return call_user_func($this->value, $event);
+        // }
     }
 }
