@@ -77,13 +77,14 @@ class SlugBehavior extends AttributeBehavior
         if (!$this->slugAttribute || !$this->attribute) {
             throw new InvalidConfigException('Incorrectly configured behavior.');
         }
-
+        
+       
         if (empty($this->attributes))
         {
             $this->attributes =
             [
-                BaseActiveRecord::EVENT_BEFORE_INSERT => [$this->slugAttribute],
-                BaseActiveRecord::EVENT_BEFORE_UPDATE => [$this->slugAttribute],
+                BaseActiveRecord::EVENT_BEFORE_VALIDATE => [$this->slugAttribute],
+                
             ];
         }
         if ($this->slugifyRuleProvider == null) {
@@ -99,6 +100,7 @@ class SlugBehavior extends AttributeBehavior
     {
         // if (!$this->value)
         // {
+         
             $slugify = new Slugify((array) $this->slugifyOptions, $this->slugifyRuleProvider);
 
             if ($this->owner->{$this->slugAttribute})
